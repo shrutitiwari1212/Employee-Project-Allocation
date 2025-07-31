@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+/* body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode input,
+body.dark-mode button,
+body.dark-mode textarea,
+body.dark-mode select  {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .toggle-btn {
+  background-color: #555;
+  color: #f0f0f0;
+}
+
+/* body.dark-mode .signup-container {
+  background-color: #2c2c2c;
+  color: #f0f0f0;
+  border: 1px solid #555;
+} */
+
+/* body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #666;
+} */
+
+body.dark-mode label {
+  color: #ddd;
+}
+
+body.dark-mode a {
+  color: #4da6ff;
+}
+
+body {
+  background-color: #e6ecf2; /* Soft blue-gray */
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

@@ -1,60 +1,59 @@
-# 👨‍💼 Employee Project Allocation System
- 
-This is a full-stack web application that enables an organization to manage employees, projects, and skill-based allocations. Admins and Managers can allocate employees to projects based on skill matching and availability, while employees can manage their own skill sets and view their allocations.
- 
----
- 
-## 🛠️ Tech Stack
- 
-| Layer      | Technology        |
-|------------|-------------------|
-| Frontend   | Angular (Standalone Components) |
-| Backend    | Spring Boot (Java, REST APIs)  |
-| Database   | MySQL             |
-| Build Tool | Maven             |
-| IDEs       | IntelliJ (backend), VS Code (frontend) |
- 
----
- 
-## 📁 Project Structure
- 
----
- 
-## 🌟 Features
- 
-### 👩‍💼 Admin Panel
-- Add new employees with temporary passwords
-- Add new projects and define required skill sets
-- Approve or reject role upgrade requests raised by managers
-- View and search pending role requests
-- Assign employees to projects based on skill match and availability
- 
-### 👨‍💻 Manager Panel
-- Raise role upgrade requests for employees
-- View the status of all raised role requests
-- View assigned employees
- 
-### 🙋 Employee Panel
-- Login with credentials and update password on first login
-- View personal details, assigned project(s), and availability status
-- Update own skill set using checkboxes
-- View matching projects based on skill match score
- 
----
- 
-## 🔐 Authentication Flow
- 
-- Admin adds employee with a temporary password
-- On first login, employee is forced to set a new password
-- All role-based data access is controlled from backend
- 
----
- 
-## 🚀 Getting Started
- 
-### ✅ 1. Clone the Repository
- 
+# Frontend
+
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+
+## Development server
+
+To start a local development server, run:
+
 ```bash
-git clone https://github.com/your-username/employee-project-allocation.git
-cd employee-project-allocation
- 
+ng serve
+```
+
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Code scaffolding
+
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
+```bash
+ng generate component component-name
+```
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
