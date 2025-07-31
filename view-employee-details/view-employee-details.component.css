@@ -1,0 +1,58 @@
+:host {
+  display: block;
+  background-color: #f0f8ff; /* Light background to contrast with dashboard */
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.view-employee-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.view-employee-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 26px;
+  margin-bottom: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.view-employee-container p {
+  font-size: 16px;
+  margin: 12px 0;
+  color: #333;
+}
+
+.view-employee-container strong {
+  color: #4682B4; /* Steel Gray */
+}
+
+.error {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.back-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #4682B4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #5a4db2;
+}
